@@ -1,0 +1,7 @@
+#! /bin/bash 
+#read a file content in bash using the while loops
+
+while read p
+do 
+    echo $p
+done < while.sh
