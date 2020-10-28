@@ -4,4 +4,4 @@
 while read p
 do 
     echo $p
-done < while.sh
+done < kalyan

@@ -5,12 +5,13 @@ select name in kalyan ram syam
 do
     case $name in 
     kalyan)
-        echo kalyan selected ;;
+        echo $name selected ;;
     ram)
-        echo ram selected ;;
+        echo $name  selected ;;
     syam)
-        echo syam selected ;;
+        echo $name selected ;;
     *)
-        echo "Error & Please provide number between 1 - 4";;
+        echo "Error & Please provide number between 1 - 4" && exit 0;;
     esac
 done
+exit 0

@@ -1,6 +1,6 @@
 #! /bin/sh
 
-vehicle=$1
+vehicle=$1  ### $1 is the first argument passe in the shell script
 
 case $vehicle in 
     "car")

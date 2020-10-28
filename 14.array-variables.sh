@@ -4,12 +4,12 @@ os=('ubuntu' 'windows'  'mac')
 os[3]='kali'
 os[4]='apache'
 
-unset os[4]
+#unset os[4]
 echo "${os[@]}"
 echo "${os[0]}"
 echo "${os[3]}"
-echo "${!os[@]}"
-echo "${#os[@]}"
+echo "${!os[@]}" ## positions
+echo "${#os[@]}" ### no of arguments passed
 
 string=sasdasasdasd
 echo "${string[@]}"

@@ -3,7 +3,7 @@
 num1=20.6
 num2=5
 
-echo "20.5+5" | bc
+echo "20.5+5" | bc  ## bc means the input given in the left-hand side will be treated as the output on the right-hand side
 echo "20.5-5" | bc
 echo "20.5*5" | bc
 echo "20.5/5" | bc

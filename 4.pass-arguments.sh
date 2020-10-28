@@ -1,11 +1,14 @@
 #! /bin/bash
+## Passing arguments 
 
-echo $0 $1 $2 $3  ' > echo $1 $2 $3 '
+### Method -1 #####
+echo $0 $1 $2 $3  ' > echo $1 $2 $3 ' ### pass mark john rambo as arguments
 
-args=("$@")
+### Method-2 ####
+args=("$@") ### passing all arguments
 
-echo ${args[0]} ${args[1]}  ${args[2]}
+echo ${args[0]} ${args[1]}  ${args[2]}  ### echo the arguments
  
-echo $@
+echo $@ ####  ALL the arguments
 
-echo $#
+echo $# #### number of arguments

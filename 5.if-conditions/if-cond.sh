@@ -1,7 +1,7 @@
 #! /bin/bash
 
 count=10
-if [ $count  -gt 5 ]
+if [ $count  -gt 5 ] ### spaces are the sqaure
 then 
     echo "Condition is true"
 fi
