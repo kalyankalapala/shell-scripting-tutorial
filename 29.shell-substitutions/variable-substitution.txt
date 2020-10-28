@@ -1,0 +1,6 @@
+Case	Substitutione	Description
+1	${v}	        Substitue the value of v.
+2	${v:-w}	      If v is null or unset, w is substituted for v. The value of v does not change.
+3	${v:=w}	     If v is null or unset, v is set to the value of w.
+4	${v:+w} 	 If v is set, w is substituted for v. The value of v does not change.
+5	${v:?w}       If v is null or unset, w is printed to standard error. This checks that variables are set correctly.
