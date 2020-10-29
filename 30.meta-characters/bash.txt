@@ -1,0 +1,9 @@
+Bash quoting with ANSI-C style
+There is also another type of quoting and that is ANSI-C. In this type of quoting characters escaped with "\" will gain special meaning according to the ANSI-C standard.
+
+\a	alert (bell)	\b	backspace
+\e	an escape character	\f	form feed
+\n	newline	\r	carriage return
+\t	horizontal tab	\v	vertical tab
+\\	backslash	\`	single quote
+\nnn	octal value of characters ( see [http://www.asciitable.com/ ASCII table] )	\xnn	hexadecimal value of characters ( see [http://www.asciitable.com/ ASCII table] )

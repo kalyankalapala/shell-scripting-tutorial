@@ -6,6 +6,8 @@
 ## Decleration ##
 function hello() {
     echo Hello-World!!!
+    echo kalyan
+    echo sachin
 }
 
 quit () {
