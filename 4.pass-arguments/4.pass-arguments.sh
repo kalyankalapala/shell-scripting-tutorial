@@ -39,5 +39,5 @@ echo `uname -o`
 # executing bash command without backticks
 echo uname -o 
 
-echo `ls` ### `` backticks
-echo ls
+echo `ls -la` ### `` backticks
+echo ssh 
